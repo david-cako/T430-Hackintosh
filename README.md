@@ -1,5 +1,5 @@
 # T430-Hackintosh
-Fully functional Lenovo T430 Hackintosh using discrete NVS5400M graphics (1600x900) and running El Capitan 10.11.5. 
+Fully functional Lenovo T430 Hackintosh with discrete NVS5400M graphics (1600x900) and running El Capitan 10.11.5. 
 
 <sup>By fully functional, I mean other than onboard WiFi, VGA, and the trackpoint, but who's counting.</sup>
 
