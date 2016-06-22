@@ -41,6 +41,8 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - Boot to BIOS, `[F1]`
 
+- Set `Config > Display > Graphics Device` to `Discrete Graphics` and disable `OS Detection`.  Switchable graphics are not supported with Hackintosh.  The special sauce in this particular machine, and perhaps the only way discrete graphics will work on any modern laptop, is that there is a hard setting in the BIOS to override Optimus.
+
 - Ensure `Startup > Boot > Boot Mode` is set to `Both`, `UEFI First` and `CSM Enabled`
 
 - Enable `Security > Memory Protection`
