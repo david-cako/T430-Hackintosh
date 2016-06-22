@@ -87,4 +87,4 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - Reboot
 
-You now have a fully functional Thinkpad T430 Hackintosh.
+You now have a fully functional Thinkpad T430 Hackintosh that you can install Google web apps and Microsoft text editors on.  The ideal scenario for me is having a Unix or Unix-like operating system on my laptop that still has an attractive, user-friendly desktop environment.  Mac OS fits the bill.  Dual booting Windows offers unlimited versatility, even when I'm not at home with my main Windows computer.
