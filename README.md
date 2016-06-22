@@ -1,9 +1,10 @@
 # T430-Hackintosh
-Fully functional Lenovo T430 Hackintosh using discrete NVS5400M graphics (1600x900) and running El Capitan 10.11.5.
+Fully functional Lenovo T430 Hackintosh using discrete NVS5400M graphics (1600x900) and running El Capitan 10.11.5. 
+<sup>By fully functional, I mean other than onboard WiFi, VGA, and the trackpoint, but who's counting.</sup>
 
 Based on [kartoffelsalat's El Capitan guide](http://www.tonymacx86.com/threads/guide-lenovo-t430-el-capitan.175935/), however with modifications to provide NVS5400M support.
 
-<sup>By fully functional, I mean other than onboard WiFi, VGA, and the trackpoint, but who's counting.</sup>
+My aim with this guide is to leave nothing to the imagination.  I feel like there's a certain subset of the internet such as DD-WRT and Hackintoshing where 90% of the information is cryptic bullshit.  This guide should be trivial to follow if you have basic experience installing operating systems and using terminal.
 
 ![desktop screenshot](http://i.imgur.com/W3EPbnW.jpg)
 
@@ -29,7 +30,7 @@ Based on [kartoffelsalat's El Capitan guide](http://www.tonymacx86.com/threads/g
 
 - Delete all folders in `/EFI/CLOVER/kext/` except `other`
 
-- Copy Clover installer, Kext Wizard, and any needed drivers (USB WiFi is a good start) to root of USB drive for post-installation
+- Copy [Clover installer](https://sourceforge.net/projects/cloverefiboot/), [Kext Wizard](http://mac.softpedia.com/get/Utilities/Kext-Wizard.shtml), and any needed drivers to root of USB drive for post-installation. USB WiFi is a good start; I am using [this](https://www.amazon.com/Edimax-EW-7811Un-150Mbps-Raspberry-Supports/dp/B003MTTJOY) as it fits very nicely into the recessed USB3.0 slots on the left of the computer.
 
 - Copy kexts included in this repo to root of USB drive
   
@@ -76,6 +77,8 @@ Based on [kartoffelsalat's El Capitan guide](http://www.tonymacx86.com/threads/g
 - Replace `/EFI/CLOVER/drivers64UEFI/VBoxHfs-64.efi` with `HFSPlus.efi`
 
 - Use Kext Wizard to install kexts included in this repo
+
+- Install USB WiFi driver
 
 - Repair permissions and update cache: `sudo touch /System/Library/Extensions && sudo kextcache -u /`
 
