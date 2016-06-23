@@ -7,7 +7,7 @@ Based on [kartoffelsalat's El Capitan guide](http://www.tonymacx86.com/threads/g
 
 My aim with this guide is to leave nothing to the imagination.  I feel like there's a certain subset of the internet such as DD-WRT and Hackintoshing where 90% of the information is cryptic bullshit.  This guide should be trivial to follow if you have basic experience installing operating systems and using terminal.
 
-![desktop screenshot](http://i.imgur.com/W3EPbnW.jpg)
+![desktop screenshot](http://i.imgur.com/DLfnx5D.jpg)
 
 ###Main headaches:
 
