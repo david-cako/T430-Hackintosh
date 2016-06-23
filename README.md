@@ -91,7 +91,7 @@ You now have a fully functional Thinkpad T430 Hackintosh that you can install Go
 
 ###Quirks:
 
-- The iMac SMBIOS configuration removes on-battery Energy Saver preferences.  This is easily resolved with the [`pmset`](http://ss64.com/osx/pmset.html) command line utility.  `sudo pmset -g disk` to view all current Energy Saver configuration.  `sudo pmset -b displaysleep 15` is what I needed, which sets the display sleep timeout to 15 minutes on battery, `-b`. 
+- The iMac SMBIOS configuration removes "on battery" Energy Saver preferences.  This is easily resolved with the [`pmset`](http://ss64.com/osx/pmset.html) command line utility.  `sudo pmset -g disk` to view all current Energy Saver configuration.  `sudo pmset -b displaysleep 15` is what I needed, which sets the display sleep timeout to 15 minutes on battery, `-b`. 
 
 - You will have a 3rd party WiFi manager in your menu bar to configure your USB WiFi.
 
