@@ -47,8 +47,6 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - Enable `Security > Memory Protection`
 
-- Disable `Security > Virtualization`
-
 ####Mac OS installation:
 
 - Boot to startup menu, `[F12]`, and choose your USB drive
