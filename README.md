@@ -79,13 +79,31 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - Use Kext Wizard to install kexts included in this repo
 
+- Copy `org.rehabman.voodoo.driver.Daemon.plist` to `/Library/LaunchDaemons`
+
+- Copy `VoodooPS2Daemon` to `/usr/bin`
+
 - Install USB WiFi driver
 
 - Repair permissions and update cache: `sudo touch /System/Library/Extensions && sudo kextcache -u /`
 
 - Reboot
 
-You now have a fully functional Thinkpad T430 Hackintosh that you can install Google web apps and Microsoft text editors on.  The ideal scenario for me is having a Unix or Unix-like operating system on my laptop that still has an attractive, user-friendly desktop environment.  Mac OS fits the bill.  Dual booting Windows offers unlimited versatility, even when I'm not at home with my main Windows computer.
+####Set up shortcuts (adds three-finger-swipe):
+
+macOS unsurprisingly has *very-Unix* shortcut key configuration that makes you wonder why something like this is so hard for Microsoft to figure out.
+
+It's legitimately as simple as opening a `System Preferences > Keyboard` dialogue, and manually typing in **ANY** menu bar command you want executed when you type a certain key combination in an application or globally.  The fact that Automator can add its scripts to your menubar under "Services" means you can effectively bind a key combination to do literally anything.
+
+VoodooPS2 also binds three-finger-swipe to `ctrl-cmd-[DIRECTION]`, so we can bind it to back and forward (and whatever you want up and down to do) in our web browser.
+
+Here's a cheatsheet (keep in mind that I already created the "launch terminal" Service in Automator):
+
+![keyboard-shortcuts-menu](http://i.imgur.com/spnR3wt.png)
+
+---
+
+You now have a fully functional Thinkpad T430 Hackintosh that you can install Google web apps and Microsoft text editors on.  The ideal scenario for me is having a Unix or Unix-like operating system on my laptop that still has an attractive, user-friendly desktop environment.  macOS fits the bill.  Dual booting Windows offers unlimited versatility, even when I'm not at home with my main Windows computer.
 
 ###Quirks:
 
