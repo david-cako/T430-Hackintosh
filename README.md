@@ -91,7 +91,7 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 ####Set up shortcuts (adds three-finger-swipe):
 
-macOS unsurprisingly has *very-Unix* shortcut key configuration that makes you wonder why something like this is so hard for Microsoft to figure out.
+macOS unsurprisingly has *very Unix* shortcut key configuration that makes you wonder why something like this is so hard for Microsoft to figure out.
 
 It's legitimately as simple as opening a `System Preferences > Keyboard` dialogue, and manually typing in **ANY** menu bar command you want executed when you type a certain key combination in an application or globally.  The fact that Automator can add its scripts to your menubar under "Services" means you can effectively bind a key combination to do literally anything.
 
