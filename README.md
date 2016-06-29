@@ -103,7 +103,9 @@ Here's a cheatsheet (keep in mind that I already created the "launch terminal" S
 
 ---
 
-You now have a fully functional Thinkpad T430 Hackintosh to install Google web apps and Microsoft text editors on.  The ideal scenario for me is having a Unix or Unix-like operating system on my laptop that still has an attractive, user-friendly desktop environment.  macOS fits the bill.  Dual booting Windows offers unlimited versatility, even when I'm not at home with my main Windows computer.
+You now have a fully functional Thinkpad T430 Hackintosh to install Google web apps and Microsoft text editors on.  
+
+The ideal scenario for me is having a Unix or Unix-like operating system on my laptop that still has an attractive, user-friendly desktop environment.  macOS fits the bill.  Dual booting Windows offers unlimited versatility, even when I'm not at home with my main Windows computer.
 
 ###Quirks:
 
