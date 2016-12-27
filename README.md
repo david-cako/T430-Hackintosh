@@ -115,4 +115,6 @@ The ideal scenario for me is having a Unix or Unix-like operating system on my l
 
 - If you want to use the trackpoint, you have to set the cursor sensitivity to minimum which effectively renders your touchpad useless.  You can press `PrtSc` to disable the touchpad.
 
+- Slightly related -- I had a Corsair M65 laying around that I wanted to use at work.  Obviously, Mac is no place for epic sniper high DPI LED gaming mice, therefore there is no built-in support for the back and forward buttons.  ckb didn't work for this mouse, even after adjusting macro definitions, so I created my own back, forward, and mission control buttons in Karabiner using the existing maps for the touchpad: https://gist.github.com/david-cako/666773eb84133aa348266e871a27a2ce
+
 - To be continued...
