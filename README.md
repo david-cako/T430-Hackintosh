@@ -31,7 +31,7 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - Delete all folders in `/EFI/CLOVER/kext/` except `other`
 
-- Copy [Clover installer](https://sourceforge.net/projects/cloverefiboot/), [Kext Wizard](http://mac.softpedia.com/get/Utilities/Kext-Wizard.shtml), and any needed drivers to root of USB drive for post-installation. USB WiFi is a good start; I am using [this](http://amzn.to/2aECk13) as it fits very nicely into the recessed USB3.0 slots on the left of the computer.
+- Copy [Clover installer](https://sourceforge.net/projects/cloverefiboot/), [Kext Wizard](http://mac.softpedia.com/get/Utilities/Kext-Wizard.shtml), and any needed drivers to root of USB drive for post-installation. USB WiFi is a good start; I am using [this](http://amzn.to/2mf3qQb) as it fits very nicely into the recessed USB3.0 slots on the left of the computer.
 
 - Copy kexts included in this repo to root of USB drive
   
