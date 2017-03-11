@@ -7,8 +7,6 @@ Based on [kartoffelsalat's El Capitan guide](http://www.tonymacx86.com/threads/g
 
 My aim with this guide is to leave nothing to the imagination.  I feel like there's a certain subset of the internet such as DD-WRT and Hackintoshing where 90% of the information is cryptic bullshit.  This guide should be trivial to follow if you have basic experience installing operating systems and using terminal.
 
-**This guide targets a 10.11.5 El Capitan installation.  Other versions will likely require some additional work.**
-
 ![desktop screenshot](http://i.imgur.com/DLfnx5D.jpg)
 
 ###Main headaches:
@@ -21,7 +19,7 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 ####USB drive prep:
   
-- Go through the [standard UniBeast process](http://www.tonymacx86.com/threads/unibeast-install-os-x-el-capitan-on-any-supported-intel-based-pc.172672/) to create a bootable OSX installer.
+- Go through the [standard UniBeast process](http://www.tonymacx86.com/threads/unibeast-install-os-x-el-capitan-on-any-supported-intel-based-pc.172672/) to create a bootable OSX installer.  Keep in mind that this guide targets a 10.11.5 El Capitan installation.  Other versions will likely require some additional work.
 
 - Replace `/EFI/CLOVER/config.plist` with the one included in this repo.
 
