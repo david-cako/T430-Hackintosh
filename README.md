@@ -1,5 +1,5 @@
 # T430-Hackintosh
-####Fully functional Lenovo T430 Hackintosh with discrete NVS5400M graphics (1600x900) and running El Capitan 10.11.5. 
+#### Fully functional Lenovo T430 Hackintosh with discrete NVS5400M graphics (1600x900) and running El Capitan 10.11.5. 
 
 <sup>By fully functional, I mean other than onboard WiFi, VGA, card reader, and brightness control, but who's counting.</sup>
 
@@ -9,15 +9,15 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 ![desktop screenshot](http://i.imgur.com/DLfnx5D.jpg)
 
-###Main headaches:
+### Main headaches:
 
 - It was not possible to boot whatsoever on `MacbookPro9,2` SMBIOS with discrete graphics. `iMac13,1` (iMac, Late 2012) SMBIOS is necessary.  It was chosen due to the GT640M being standard on that generation, the nearest relative I could find to the NVS5400M (effectively a rebadged GT630M) on stock Apple hardware.
 
-- ####There are two different AppleHDA kexts in kartoffelsalat's post.  One does not work on 10.11.5.
+- #### There are two different AppleHDA kexts in kartoffelsalat's post.  One does not work on 10.11.5.
 
-###Install procedures:
+### Install procedures:
 
-####USB drive prep:
+#### USB drive prep:
   
 - Go through the [standard UniBeast process](http://www.tonymacx86.com/threads/unibeast-install-os-x-el-capitan-on-any-supported-intel-based-pc.172672/) to create a bootable OSX installer.  Keep in mind that this guide targets a 10.11.5 El Capitan installation.  Other versions will likely require some additional work.
 
@@ -37,7 +37,7 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
   
 - Copy any needed drivers
 
-####BIOS configuration:
+#### BIOS configuration:
 
 - Boot to BIOS, `[F1]`
 
@@ -47,7 +47,7 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - Enable `Security > Memory Protection`
 
-####Mac OS installation:
+#### Mac OS installation:
 
 - Boot to startup menu, `[F12]`, and choose your USB drive
 
@@ -57,7 +57,7 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - Install Mac OS
 
-####Post installation:
+#### Post installation:
 
 - Boot from USB once more, however this time choosing your hard drive installation in Clover
 
@@ -89,7 +89,7 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - Reboot
 
-####Set up shortcuts (adds three-finger-swipe):
+#### Set up shortcuts (adds three-finger-swipe):
 
 macOS unsurprisingly has *very Unix* shortcut key configuration that makes you wonder why something like this is so hard for Microsoft to figure out.
 
@@ -107,7 +107,7 @@ You now have a fully functional Thinkpad T430 Hackintosh to install Google web a
 
 The ideal scenario for me is having a Unix or Unix-like operating system on my laptop that still has an attractive, user-friendly desktop environment.  macOS fits the bill.  Dual booting Windows offers unlimited versatility, even when I'm not at home with my main Windows computer.
 
-###Quirks:
+### Quirks:
 
 - The iMac SMBIOS configuration removes "on battery" Energy Saver preferences.  This is easily resolved with the [`pmset`](http://ss64.com/osx/pmset.html) command line utility.  `sudo pmset -g disk` to view all current Energy Saver configuration.  `sudo pmset -b displaysleep 15` is what I needed, which sets the display sleep timeout to 15 minutes on battery [`-b`]. 
 
