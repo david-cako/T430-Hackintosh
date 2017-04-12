@@ -109,6 +109,8 @@ The ideal scenario for me is having a Unix or Unix-like operating system on my l
 
 ### Quirks:
 
+- I feel like the computer throttles itself significantly when it's booted on battery?  But then plugging it in doesn't seem to change anything.  It has to be booted on AC power.  I'm pretty sure this is all real, but it could also be psychosomatic.
+
 - The iMac SMBIOS configuration removes "on battery" Energy Saver preferences.  This is easily resolved with the [`pmset`](http://ss64.com/osx/pmset.html) command line utility.  `sudo pmset -g disk` to view all current Energy Saver configuration.  `sudo pmset -b displaysleep 15` is what I needed, which sets the display sleep timeout to 15 minutes on battery [`-b`]. 
 
 - You will have a 3rd party WiFi manager in your menu bar to configure your USB WiFi.
