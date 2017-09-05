@@ -1,5 +1,5 @@
 # T430-Hackintosh
-#### Fully functional Lenovo T430 Hackintosh with discrete NVS5400M graphics (1600x900) and running El Capitan 10.11.5. 
+#### Fully functional Lenovo T430 Hackintosh with discrete NVS5400M graphics (1600x900) and running El Capitan ~~10.11.5~~ 10.11.6.  (Updated from 10.11.5 to 10.11.6 without issue.) 
 
 <sup>By fully functional, I mean other than onboard WiFi, VGA, card reader, and brightness control, but who's counting.</sup>
 
