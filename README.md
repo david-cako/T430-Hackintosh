@@ -13,7 +13,7 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - It was not possible to boot whatsoever on `MacbookPro9,2` SMBIOS with discrete graphics. `iMac13,1` (iMac, Late 2012) SMBIOS is necessary.  It was chosen due to the GT640M being standard on that generation, the nearest relative I could find to the NVS5400M (effectively a rebadged GT630M) on stock Apple hardware.
 
-- #### There are two different AppleHDA kexts in kartoffelsalat's post.  One does not work on 10.11.5.
+- #### There are two different AppleHDA kexts in kartoffelsalat's post.  One does not work on 10.11.5/10.11.6.
 
 ### Install procedures:
 
