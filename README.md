@@ -23,7 +23,7 @@ My aim with this guide is to leave nothing to the imagination.  I feel like ther
 
 - Replace `/EFI/CLOVER/config.plist` with the one included in this repo.
 
-- Add `DSDT.aml` to `/EFI/CLOVER/ACPI/patched`
+- Patch `dsdt.aml` as per [kartoffelsalat's guide](https://www.tonymacx86.com/threads/guide-lenovo-t430-el-capitan.175935/) and place at `/EFI/CLOVER/ACPI/patched`
 
 - Replace `/EFI/CLOVER/drivers64UEFI/VBoxHfs-64.efi` with `HFSPlus.efi` (HFSPlus is Apple's proprietary filesystem driver. It will not be supplied in this repo.)
 
